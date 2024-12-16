@@ -1,16 +1,14 @@
-body {
-  background-image: url("./noaa-UJsUJr3cgEM-unsplash.jpg");
-  background-size: cover;
-  background-color: red;
-  background-repeat: no-repeat;
+.con {
+  background-color: rgba(36, 37, 37, 0.5);
+  border-radius: 10px;
+  padding: 10px 50px;
+  width: 100%;
   display: flex;
-
-  justify-content: "center";
-  align-items: "center";
-  height: 100vh;
-  margin: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
 }
-
 /* #root {
   max-width: 1280px;
   margin: 0 auto;

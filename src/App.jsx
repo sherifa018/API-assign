@@ -28,15 +28,7 @@ function App() {
   };
 
   return (
-    <div
-      style={{
-        textAlign: "center",
-        padding: "20px",
-        fontFamily: "Arial",
-        width: "100%",
-        flex: "1 1 0%",
-      }}
-    >
+    <div className="con" style={{}}>
       <h1>Weather App</h1>
       <input
         type="text"
